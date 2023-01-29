@@ -20,6 +20,8 @@ export default function Home({posts}) {
         <div className="lg:col-span-4 col-span-1">
           <div className="lg:sticky relative top-8">
             <PostWidget/>
+            <br/>
+            <br/>
             <Categories/>
           </div>
         </div>
@@ -35,3 +37,6 @@ export async function getStaticProps(){
     props:{posts}
   }
 }
+
+
+
